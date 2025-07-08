@@ -1,8 +1,10 @@
+import Dashboard from "./pages/dahsboard/dashboard";
+
 const router = [
   {
     path: "/dashboard",
     name: "Dashboard",
-    element: <div>lest</div>,
+    element: <Dashboard/>,
   },
 ];
 

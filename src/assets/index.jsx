@@ -10,7 +10,12 @@ import product from "./icons/product.svg";
 import speed_meter from "./icons/performance.svg";
 import tools from "./icons/tools.svg";
 import whatsapp from "./icons/WhatsApp.svg";
-import notification from "./icons/Notification.svg"
+import notification from "./icons/Notification.svg";
+import mail from "./icons/mail.svg";
+import phone from "./icons/phone.svg";
+import office from "./icons/Office.svg";
+import ID from "./icons/ID_.svg";
+import edit from "./icons/edit.svg"
 
 export {
   bank,
@@ -23,5 +28,10 @@ export {
   speed_meter,
   tools,
   whatsapp,
-  notification
+  notification,
+  mail,
+  office,
+  phone,
+  ID,
+  edit
 };

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Outlet, Route, Routes } from "react-router-dom";
-import router from "./routes"; 
+import router from "./routes";
 import Navbar from "./components/navbar";
 import SideBar from "./components/sidebar";
 
@@ -37,12 +37,9 @@ function App() {
                   <div className="col-span-6">
                     <Navbar />
                   </div>
-                  <Outlet />
-                  {/* {Array.from({ length: 10 }).map((_, i) => (
-                    <div key={i} className="bg-stone-400">
-                      item ke: {i}
-                    </div>
-                  ))} */}
+                  <div style={{maxHeight: 'calc(100vh - 5rem)'}} className="col-span-6 overflow-y-auto row-span-12">
+                    <Outlet />
+                  </div>
                 </div>
               </main>
             </>

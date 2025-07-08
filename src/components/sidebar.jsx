@@ -68,7 +68,7 @@ const SideBar = () => {
 
   return (
     <>
-      <div className="h-screen bg-white shadow-slate-200">
+      <div className="h-screen bg-white border border-collapse border-black shadow-slate-200">
         <div aria-label="logo" className="flex justify-center">
           <div className="grid w-32 h-32 p-2 bg-blue-500 place-items-end">
             <h2 className="text-3xl font-semibold text-white">Loan Market</h2>
