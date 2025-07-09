@@ -1,6 +1,7 @@
 // For better import
 
 import home from "./icons/Home.svg";
+import home_black from "./icons/Home_black.svg";
 import bank from "./icons/Bank_Building.svg";
 import contact from "./icons/Contact.svg";
 import faq from "./icons/Help.svg";
@@ -15,7 +16,8 @@ import mail from "./icons/mail.svg";
 import phone from "./icons/phone.svg";
 import office from "./icons/Office.svg";
 import ID from "./icons/ID_.svg";
-import edit from "./icons/edit.svg"
+import edit from "./icons/edit.svg";
+import menu from "./icons/menu.svg";
 
 export {
   bank,
@@ -33,5 +35,7 @@ export {
   office,
   phone,
   ID,
-  edit
+  edit,
+  menu,
+  home_black
 };

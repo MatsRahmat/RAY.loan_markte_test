@@ -5,7 +5,7 @@ const DefaultPage = () => {
   return (
     <>
       <div className="grid h-full place-items-center">
-        <p className="text-4xl font-semibold">{location.pathname}</p>
+        <p className="text-base font-semibold md:text-lg xl:text-4xl">{location.pathname}</p>
       </div>
     </>
   );

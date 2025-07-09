@@ -7,26 +7,26 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="h-full bg-white border border-black">
-        <div className="flex items-center justify-between h-full px-3 text-[#4F5051]">
-          <h1 className="text-4xl">Dashboard</h1>
-          <div className="flex mx-4">
+      <nav className="h-full text-sm bg-white border xl:text-base">
+        <div className="flex items-center justify-between h-full xl:px-3 text-[#4F5051]">
+          <h1 className="text-lg xl:text-4xl">Dashboard</h1>
+          <div className="flex mx-1 xl:mx-4">
             <div
               className="flex gap-3 px-3 border-l border-black cursor-pointer"
               onClick={() => handleClick("notif")}
             >
-              <div>
-                <img src={notification} alt="" />
+              <div className="block w-full h-full ">
+                <img src={notification} alt="notif" className="size-full" />
               </div>
               <div>
                 <span className="block text-3xl rotate-90">{">"}</span>
               </div>
             </div>
             <div
-              className="flex items-center gap-2 px-4 border-l border-r border-black cursor-pointer"
+              className="flex items-center px-1 border-l border-r border-black cursor-pointer xl:gap-2 xl:px-4"
               onClick={() => handleClick("profile")}
             >
-              <p className="text-xl uppercase">Yohanes Affandy</p>
+              <p className="text-xs uppercase truncate xl:text-xl text-ellipsis">Yohanes Affandy</p>
               <div>
                 <span className="block text-3xl rotate-90">{">"}</span>
               </div>

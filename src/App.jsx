@@ -37,7 +37,7 @@ function App() {
                   <div className="col-span-6">
                     <Navbar />
                   </div>
-                  <div style={{maxHeight: 'calc(100vh - 5rem)'}} className="col-span-6 overflow-y-auto row-span-12">
+                  <div style={{maxHeight: 'calc(100dvh - 5rem)'}} className="col-span-6 overflow-auto overflow-y-auto row-span-12">
                     <Outlet />
                   </div>
                 </div>
